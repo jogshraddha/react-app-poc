@@ -1,0 +1,16 @@
+.Statistics-span {
+    display:inline-block;
+    margin:1em;
+    text-align:center;
+    background-color:#ccc;
+    border-color: green;
+    border-style: solid;
+    width:48px;
+    border-radius:50%;
+    cursor:pointer;
+    font-size: xx-large;
+}
+
+.Statistics-text{
+    font-size: 12px;
+}
