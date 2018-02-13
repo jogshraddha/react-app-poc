@@ -2,15 +2,16 @@
     display:inline-block;
     margin:1em;
     text-align:center;
-    background-color:#ccc;
+    background-color: #1C2733;
     border-color: green;
     border-style: solid;
-    width:48px;
+    width:60px;
+    height: 60px;
     border-radius:50%;
     cursor:pointer;
     font-size: xx-large;
 }
 
 .Statistics-text{
-    font-size: 12px;
+    font-size: 10px;
 }

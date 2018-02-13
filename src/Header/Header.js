@@ -1,17 +1,17 @@
 import React from 'react';
-
+import './Header.css'
 class Header extends React.Component{
 
     render(){
        return (
-           <div>
+           <div className="col-12">
                <nav className="nav">
-                   <a className="nav-link active" href="#">All</a>
-                   <a className="nav-link" href="#">Dine In</a>
-                   <a className="nav-link" href="#">TO-GO</a>
-                   <a className="nav-link disabled" href="#">Order</a>
-                   <a className="nav-link disabled" href="#">Table</a>
-                   <a className="nav-link disabled" href="#">Time</a>
+                   <a className="col-2 text-center nav-link active" href="#">All</a>
+                   <a className="col-2 text-center nav-link" href="#">Dine In</a>
+                   <a className="col-2 text-center nav-link" href="#">To-Go</a>
+                   <a className="col-2 text-center nav-link" href="#">Order</a>
+                   <a className="col-2 text-center nav-link" href="#">Table</a>
+                   <a className="col-2 text-center nav-link" href="#">Time</a>
                </nav>
            </div>
        )

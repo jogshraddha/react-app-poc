@@ -1,0 +1,13 @@
+.nav a:hover {
+    border-bottom: 3px solid gray;
+    color: white !important;
+}
+
+.nav a.active {
+    border-bottom: 3px solid gray;
+    color: white !important;
+}
+
+.nav-link{
+    color: gray;
+}

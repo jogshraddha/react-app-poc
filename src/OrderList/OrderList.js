@@ -15,7 +15,7 @@ class OrderList extends React.Component{
                 orderTime={order.orderTime}
             />
         );
-        return <ul>{listItems}</ul>
+        return <ul className="list-group">{listItems}</ul>
         // return <div>
         //     <Order/>
         //     <Order/>
